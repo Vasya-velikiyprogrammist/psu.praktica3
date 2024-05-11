@@ -90,22 +90,24 @@ namespace Project3 {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::SystemColors::ControlDark;
 			this->button1->Location = System::Drawing::Point(26, 459);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(418, 43);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Показать таблицу и экстремумы функции";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// button2
 			// 
+			this->button2->BackColor = System::Drawing::SystemColors::ControlDark;
 			this->button2->Location = System::Drawing::Point(467, 459);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(135, 43);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Выход";
-			this->button2->UseVisualStyleBackColor = true;
+			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// pictureBox1
@@ -246,6 +248,7 @@ namespace Project3 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->ClientSize = System::Drawing::Size(619, 514);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->textBox6);
