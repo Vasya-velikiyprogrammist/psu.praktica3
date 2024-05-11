@@ -90,7 +90,7 @@ namespace Project3 {
 			// 
 			// button1
 			// 
-			this->button1->BackColor = System::Drawing::SystemColors::ControlDark;
+			this->button1->BackColor = System::Drawing::SystemColors::ButtonShadow;
 			this->button1->Location = System::Drawing::Point(26, 459);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(418, 43);
